@@ -1,0 +1,100 @@
+.map__map {
+    background: #DDDDDD;
+    color: #000;
+    height: 476px;
+    padding: 228px 322px;
+}
+
+.map__map>p {
+    text-align: center;
+}
+
+.contacts-text {
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+.mail {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-top: 62px;
+}
+
+.form__input {
+    border: 0;
+    border-bottom: 1px solid #000;
+    max-width: 350px;
+    outline: none;
+    margin-bottom: 35px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.form__input_message {
+    padding-bottom: 110px;
+}
+
+.btn-w {
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.btn__btn {
+    background: #6E9C9F;
+    color: white;
+    border: 1px solid transparent;
+    padding: 22px 50px;
+}
+
+.btn__btn:hover {
+    background: none;
+    border: 1px solid #6E9C9F;
+    color: #6E9C9F;
+    transition: all 0.5s ease;
+}
+
+.message {
+    display: none;
+    padding: 25px 55px;
+    background: #F1EADC;
+    margin-bottom: 130px;
+    text-align: center;
+    max-width: 437px;
+}
+
+.message>p {
+    font-size: 15px;
+}
+
+.message.active {
+    display: block;
+}
+
+/* Responsive */
+
+/* Large: 992px - 1200px */
+@media (max-width: 992px) {
+    .map__map {
+        padding: 227px 262px;
+    }
+}
+
+/* Extra small: 0px - 320px */
+@media (max-width: 320px) {
+    .map__map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+    .form__input {
+        width: 100%;
+    }
+}

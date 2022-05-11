@@ -1,0 +1,154 @@
+.table__second {
+    margin-left: 416px;
+    margin-right: 139px;
+}
+
+.table__fourth {
+    margin-left: 167px;
+}
+
+.column {
+    padding-bottom: 26px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 49px;
+}
+
+.line__first {
+    cursor: pointer;
+}
+
+.line__second {
+    margin-left: 45px;
+    margin-right: 134px;
+}
+
+.line__fourth {
+    margin-left: 135px;
+    margin-right: 193px;
+}
+
+.line__second>img {
+    width: 125px;
+    height: 179px;
+    margin-right: 36px;
+}
+
+.coupon {
+    margin-top: 72px;
+    margin-bottom: 88px;
+}
+
+.coupon__input {
+    width: 255px !important;
+    border: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding-bottom: 16px;
+}
+
+.coupon-btn {
+    margin-bottom: 24px;
+}
+
+.coupon__btn {
+    color: #6E9C9F;
+    padding: 22px 50px;
+    border: 1px solid #6E9C9F;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.coupon__btn:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background: #6E9C9F;
+    transition: all 0.5s ease;
+}
+
+.coupon__btn:hover {
+    color: #6E9C9F;
+}
+
+
+.coupon__btn:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background: #6E9C9F;
+    transition: all 0.5s ease;
+}
+
+.total {
+    margin-left: 20px;
+}
+
+.total__text {
+    width: 287px;
+    height: 68px;
+    padding-left: 31px;
+    padding-top: 21px;
+    background: #F1EADC;
+}
+
+.total__text-two {
+    margin-left: 69px;
+}
+
+
+.table {
+    margin-bottom: 130px;
+}
+
+.outcome {
+    margin-left: auto;
+}
+
+.outcome__text-two {
+    margin-left: 20px;
+}
+
+.total-btn {
+    padding: 24px 50px;
+    background: #6E9C9F;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.total-btn:hover {
+    color: #fff;
+}
+
+.total-btn:hover {
+    border: 1px solid #6E9C9F;
+    background: none;
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.total-btn {
+    text-align: center;
+    margin-bottom: 130px;
+    margin-left: 15px;
+}
+
+.total__text-one {
+    height: 23px;
+}
+
+.table-item:not(:last-of-type) {
+    margin-bottom: 25px;
+}
+
+.txt-value {
+    margin-left: 50px;
+}
+
+.txt-value__title {
+    margin-bottom: 23px;
+}
+
+.txt-value__btn {
+    margin-top: 14px;
+    margin-bottom: 13px;
+    padding: 10px 20px !important;
+    width: 49px !important;
+}

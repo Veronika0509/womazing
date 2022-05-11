@@ -1,0 +1,94 @@
+.heade {
+    padding-top: 51px;
+}
+
+.header__title {
+    margin-top: 190px;
+}
+
+.header__breadcrumb {
+    margin-top: 26px;
+}
+
+.tabs__text {
+    padding: 19px 65px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tabs__text.active {
+    background: #000;
+}
+.tabs__text.active button {
+    color: #fff;
+}
+
+.tabs__text:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.shop__span {
+    color: #808080;
+    margin-top: 92px;
+    margin-bottom: 65px;
+}
+
+.wrap {
+    margin-bottom: 65px;
+}
+
+.texttext__p {
+    color: #808080;
+    margin: 65px 0;
+}
+
+.sllide {
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.sllide-one {
+    width: 41px;
+    height: 41px;
+    border: 1px solid black;
+}
+
+.sllide-one.active {
+    background: #000;
+    color: white;
+}
+
+.sllide-one {
+    margin-right: 14px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.sllide__img {
+    cursor: pointer;
+}
+
+button, button:focus, button:active {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Responsive */
+
+/* Large: 992px - 1200px */
+@media (max-width: 992px) {
+    .tabs {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .tabs__text {
+        margin-bottom: 15px;
+    }
+
+    .fut__img {
+        width: 285px;
+    }
+}
