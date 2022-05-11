@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <meta name="description" content="Лучшая одежда в мире">
+    <meta name="keywords" content="одежда, стиль, стильная одежда">
+    <!-- OG Tags -->
+    <meta property="og:title" content="Womazing">
+    <meta property="og:description" content="Лучшая одежда из тех которых вы видели">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="C:\openserver\domains\womazing\img\firstscreen.jpg">
+    <meta property="og:site_name" content="Shop">
+    <!--  Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <!-- Styling -->
+    <meta name="theme-color" content="#F1EADC">
+    <link rel="apple-touch-icon" href="img/preview/apple-touch-icon.svg">
+    <link rel="icon" type="image/png" href="img/preview/favicon.png">
+    <!--Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="heade" id="heade">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="head align-items-center d-flex">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="img/preview/logo.png" alt="Логотип компании">
+                            </a>
+                        </div>
+                        <ul class="head__list d-flex">
+                            <li class="head__a">
+                                <a class="head__item" href="./index.html" target="_blank">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="head__a">
+                                <a class="head__item" href="./shop.html" target="_blank">
+                                    Магазин
+                                </a>
+                            </li>
+                            <li class="head__a">
+                                <a class="head__item" href="./brand.html" target="_blank">
+                                    О бренде
+                                </a>
+                            </li>
+                            <li class="head__a">
+                                <a class="head__item" href="./contacts.html" target="_blank">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="head__tel d-flex">
+                            <a href="#">
+                                <img src="img/little/call.png" class="head__tel-img" alt="Телефончик">
+                            </a>
+                            <a href="#" class="head__tel-text">+7 (495) 823-54-12</a>
+                        </div>
+                        <a href="./cart.html" class="head__cart ml-auto">
+                            <img src="img/little/cart.png" title="Корзина" alt="Корзина">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h1 class="header__title">
+                        Магазин
+                    </h1>
+                    <ul class="header__breadcrumb d-flex align-items-center">
+                        <li><a class="breadc all" href="index.html" target="_blank">Главная</a></li>
+                        <li><div class="bread"></div></li>
+                        <li><a class="breadcr all grey" href="./shop.html">Магазин</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="shop" id="shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="tabs d-flex align-items-center">
+                        <li class="tabs__text active">
+                            <button>Все</button>
+                        </li>
+                        <li class="tabs__text">
+                            <button>Пальто</button>
+                        </li>
+                        <li class="tabs__text">
+                            <button>Свитшоты</button>
+                        </li>
+                        <li class="tabs__text">
+                            <button>Кардиганы</button>
+                        </li>
+                        <li class="tabs__text">
+                            <button>Толстовки</button>
+                        </li>
+                    </ul>
+                    <p class="shop__span">Показано: 9 из 12 товаров</p>
+                </div>
+                <div class="col-lg-12">
+                    <div class="all-photos-two">
+                        <div class="wrap d-flex justify-content-between">
+                            <div class="first-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/first-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Футболка USA</h3>
+                                <div class=" price d-flex">
+                                    <span class="fut__prices">$129</span>
+                                </div>
+                            </div>
+                            <div class="second-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/second-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Купальник Glow</h3>
+                                <div class="price d-flex">
+                                    <span class="fut__price">$129</span>
+                                </div>
+                            </div>
+                            <div class="third-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/third-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Свитшот Sweet Shot</h3>
+                                <div class=" price d-flex">
+                                    <span class="fut__price">$129</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap d-flex justify-content-between">
+                            <div class="first-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/first-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Футболка USA</h3>
+                                <div class=" price d-flex">
+                                    <span class="fut__prices">$129</span>
+                                </div>
+                            </div>
+                            <div class="second-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/second-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Купальник Glow</h3>
+                                <div class="price d-flex">
+                                    <span class="fut__price">$129</span>
+                                </div>
+                            </div>
+                            <div class="third-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/third-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Свитшот Sweet Shot</h3>
+                                <div class=" price d-flex">
+                                    <span class="fut__price">$129</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap d-flex justify-content-between">
+                            <div class="first-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/first-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Футболка USA</h3>
+                                <div class=" price d-flex">
+                                    <span class="fut__prices">$129</span>
+                                </div>
+                            </div>
+                            <div class="second-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/second-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Купальник Glow</h3>
+                                <div class="price d-flex">
+                                    <span class="fut__price">$129</span>
+                                </div>
+                            </div>
+                            <div class="third-photo fut" onClick='location.href="./one_product.html"'>
+                                <div class="wrapper">
+                                    <img src="img/photo/third-photo.jpg" class="fut__img" alt="Футболка">
+                                </div>
+                                <h3 class="fut__title">Свитшот Sweet Shot</h3>
+                                <div class=" price d-flex">
+                                    <span class="fut__price">$129</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="texttext">
+                        <p class="texttext__p">Показано: 9 из 12 товаров</p>
+                    </div>
+                    <div class="sllide d-flex align-items-center">
+                        <div class="sllide_first sllide-one active">1</div>
+                        <div class="sllide_second sllide-one">2</div>
+                        <div class="sllide__img">
+                            <img src="img/arrow/black.png" alt="Стрелочка">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-lg-3">
+                    <div class="all-footer-first">
+                        <div class="logo">
+                            <img src="img/preview/logo.png" alt="Логотип комании">
+                        </div>
+                        <div class="politics">
+                            <p class="politics__right politics-text">
+                                © Все права защищены
+                            </p>
+                            <p class="politics__politics politics-text">
+                                Политика конфиденциальности
+                            </p>
+                            <p class="politics__public politics-text">
+                                Публичная оферта
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="all-footer-second">
+                        <ul class="footer__list d-flex">
+                            <li class="footer__item">
+                                <a class="a" href="./index.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="a" href="./shop.html">
+                                    Магазин
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="a" href="./brand.html">
+                                    О бренде
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="a" href="contacts.html">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__list-two">
+                            <li class="footer__item-two">
+                                <a href="./shop.html">
+                                    Пальто
+                                </a>
+                            </li>
+                            <li class="footer__item-two">
+                                <a href="./shop.html">
+                                    Свитшоты
+                                </a>
+                            </li>
+                            <li class="footer__item-two">
+                                <a href="./shop.html">
+                                    Кардиганы
+                                </a>
+                            </li>
+                            <li class="footer__item-two">
+                                <a href="./shop.html">
+                                    Толстовки
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="all-footer-third">
+                        <div class="info">
+                            <a href="#" class="info__tel">+7 (495) 823-54-12</a>
+                            <a href="#" class="info__email">hello@womazing.com</a>
+                        </div>
+                        <div class="socials d-flex">
+                            <!--noindex-->
+                            <a class="socials__insta socials-img" href="https://www.instagram.com" rel="nofollow noopener noreferrer" target="_blank">
+                                <img src="img/little/instagram.png" alt="Instagram">
+                            </a>
+                            <!--/noindex-->
+
+                            <!--noindex-->
+                            <a href="https://www.facebook.com" rel="nofollow noopener noreferrer" target="_blank" class="socials__face socials-img">
+                                <img src="img/little/facebook.png" alt="Facebook">
+                            </a>
+                            <!--/noindex-->
+
+                            <!--noindex-->
+                            <a href="https://www.twitter.com" rel="nofollow noopener noreferrer" target="_blank" class="socials__twit socials-img">
+                                <img src="img/little/twitter.png" alt="Twitter">
+                            </a>
+                            <!--/noindex-->
+                        </div>
+                        <div class="pay">
+                            <div class="pay__visa-master">
+                                <img src="img/little/visa-mastercard.png" alt="Visa Mastercard">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
